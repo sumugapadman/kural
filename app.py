@@ -1,6 +1,5 @@
-from flask import Flask, request
-
-app = Flask(__name__,template_folder='src/views')
+from src.config import app, db, migrate
+from src.models import ThirukuralModel
 
 from src.routes.common import common_blueprint
 app.register_blueprint(common_blueprint)
