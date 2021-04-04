@@ -1,0 +1,4 @@
+# kural
+
+App for thirukural
+
