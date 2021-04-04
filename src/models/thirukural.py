@@ -3,7 +3,7 @@ from src.config import db
 class ThirukuralModel(db.Model):
     __tablename__ = 'kural'
 
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     Number = db.Column(db.String())
     Line1 = db.Column(db.String())
     Line2 = db.Column(db.String())
