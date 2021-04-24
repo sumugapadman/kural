@@ -1,0 +1,1 @@
+from src.controllers.thirukural import Thirukural

@@ -1,0 +1,23 @@
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+body.bg-nature {
+  background: url('http://localhost:5000/static/background.jpg');
+  background-size: cover;
+}
+.kural-container{
+  height: calc(100%);
+  width: calc(100%);
+  margin-top: calc(15%);
+  margin-left: calc(10%);
+}
+.kural{
+  text-shadow: 2px 2px 4px #000000;
+}
+.kural-author{
+  font-weight: 800;
+}
